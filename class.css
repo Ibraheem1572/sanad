@@ -1,0 +1,21 @@
+p{
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    line-height: 20px;
+
+    text-indent: 30px;
+    text-align: justify;
+    text-transform: lowercase;
+}
+h2{
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    font-style: normal;
+
+    font-weight: bold;
+    font-size: 50px;
+
+    color: rgb(102, 51, 153);
+    font-family: algerian, serif;
+    text-shadow: 0px 0px 10px red;
+}

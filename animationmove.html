@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes poji{
+            0%{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+            25%{
+                margin-left: 200px;
+                margin-top: 0px;
+            }
+            50%{
+                margin-top: 200px;
+                margin-left: 200px;
+            }
+            75%{
+                margin-top: 200px;
+                margin-left: 0px;
+            }
+            100%{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+        }
+        p{
+            font-size: 150px;
+            margin: 0px;
+            background: indigo;
+            width: fit-content;
+
+            animation: poji 2s ease-in-out 0s infinite forwards;
+            transform: rotateY(180deg);
+        }
+        body{
+            background-color: cyan;
+            height: 800px;
+            display: flex;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>🏍</p>
+    </div>
+</body>
+</html>

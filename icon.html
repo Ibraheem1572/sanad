@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        .mata {
+            background: lawngreen;
+            display: flex;
+            height: 15rem;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 20px;
+        }
+        
+        h3{
+            visibility: hidden;
+        }
+        @media screen and (max-width: 768px){
+            .mata{
+                background: yellow;
+                display: flex;
+                flex-direction: column;
+            }       
+            h3{
+                visibility: visible;
+            }
+            button{
+                visibility: hidden;
+            }
+
+        }
+        button {
+            background: orange;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .barca {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: lawngreen;
+            color: white;
+            padding: 10px;
+        }
+        .fa-tower-cell {
+            font-size: 60px;
+        }
+        .bi bi-policy {
+            font-size: 30px;
+        }
+        .fa-thumbs-up {
+            font-size: 60px;
+        }
+
+        
+
+    </STYle>
+</head>
+<body>
+    <h2>
+        Why Choose Smile
+    </h2>
+    <div class="mata">
+        <div class="barca">
+            <i class="fa-solid fa-tower-cell"></i>
+            <h3>Best 4G Network</h3>
+            <p>
+                Enjoy Superfast internet across Nigria with 4G <br>
+                LTE data and Superfast voice service.
+            </p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="barca">
+            <i class="bi bi-policy"></i>
+            <h3>247 Help Support</h3>
+            <p>
+                Our virtical chat assistant and Customer care service is <br>
+                available to help you 24/7
+            </p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="barca">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <h3>BestValue</h3>
+            <p>
+                Get the BestValue for your money our Data and <br>
+                Voice Service 
+            </p>
+            <button>KNOW MORE</button>
+        </div>
+</body>
+</html>

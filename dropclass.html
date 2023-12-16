@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fordrop {
+            background: red;
+            width: 100px;
+            position: relative;
+        }
+
+        .fordrop ul {
+            background: orange;
+            padding: 5px;
+            list-style-type: none;
+            position: absolute;
+            visibility: hidden;
+            margin: 0px;
+        }
+        .fordrop ul{
+            margin: 5px 0px;
+            background: blue;
+            text-align: center;
+            color: white;
+        }
+        
+        .fordrop ul li:hover{
+            background: green;
+        }
+        /*DROPDOWN*/
+        .fordrop:hover ul{
+            visibility: visible;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="fordrop">
+        country
+        <ul>
+            <li>Nigeria</li>
+            <li>United State</li>
+            <li>United Kingdom</li>
+            <li>Liberia</li>
+            <li>Ghana</li>
+        </ul>
+    </div>
+</body>
+
+</html>

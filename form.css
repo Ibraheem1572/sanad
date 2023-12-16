@@ -1,0 +1,32 @@
+form{
+    box-shadow: inset 0px 0px 30px white;
+    padding: 40px;
+    width: 30%;
+    margin-left: 5%;
+    background-image: url(images/IMG_20210423_005705_751.jpg);
+    background-size: contain;
+    
+    
+}
+input{
+border-radius: 20px;
+opacity: 0.3;
+padding: 8px;
+border: none;
+width: 90%
+}
+button{
+    width: 80%;
+    border-radius: 20px;
+    padding: 7px;
+    opacity: 0.3;
+    border: none;
+
+}
+img{
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    opacity:0.9;
+}
