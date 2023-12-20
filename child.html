@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bagda{
+            background: red !important;
+        }
+
+        tr:nth-child(odd) td:nth-child(odd){
+            background: green;
+        }
+        tr:nth-child(odd) td:nth-child(even){
+            background: orange;
+        }
+        tr:nth-child(even) td:nth-child(odd){
+            background: orange;
+        }
+        tr:nth-child(even) td:nth-child(even){
+            background: green;
+        }
+
+        td{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table border="">
+        <tr>
+            <td class="bagda"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="bagda"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="bagda"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="bagda"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="bagda"></td>
+        </tr>
+    </table>
+</body>
+</html>
