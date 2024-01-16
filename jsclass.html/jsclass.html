@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Welcome to Javascript
+    </h1>   
+        <img src="bl.jpg" width="400" height="200"> <br>
+        <button onclick="sala()"> 
+        click to see more
+    </button>    
+   <script>
+    function sala() {
+        document.querySelector('h1').style.color= 'white';
+        document.querySelector('h1').innerHTML = 'IT IS JAVASCRIPT CLASS';
+        document.querySelector('img').src='solo.jpg';
+        document.querySelector('body').style.background='green';
+        confirm('are you sure you want to logout?')
+    }
+   </script>
+</body>
+</html>
